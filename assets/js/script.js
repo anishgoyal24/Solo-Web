@@ -24,3 +24,10 @@ $(function(){
         this.destroy();
     }, {offset:'bottom-in-view'});
 });
+
+$(function(){
+    $('#services-tabs').responsiveTabs({
+        startCollapsed: 'accordion',
+        animation: 'slide'
+    });
+});
