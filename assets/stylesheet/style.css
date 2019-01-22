@@ -554,3 +554,128 @@ ul.social-list li:nth-child(3) a:hover{
     margin-bottom: 30px;
 }
 
+#portfolio .content-box-md{
+    padding: 50px 0px 0px;
+}
+
+#portfolio .vertical-heading{
+    margin-bottom: 50px;
+}
+
+#portfolio-wrapper .container-fluid{
+    padding: 0;
+}
+
+#isotope-filters{
+    padding: 20px 25px 20px 0px;
+}
+
+#isotope-filters button{
+    font-family: "Raleway";
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-text-transform: uppercase;
+    box-shadow: none;
+    padding-right: 35px;
+}
+
+#isotope-filters button span{
+    display: block;
+    padding-bottom: 5px;
+    transition: border-color 300ms ease-in-out;
+    -webkit-transition: border-color 300ms ease-in-out;
+}
+
+#isotope-filters button.active span{
+    color: #f4c613;
+    border-bottom: 3px solid #f4c613;
+}
+
+.portfolio-item{
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-item img{
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease;
+}
+
+.portfolio-item:hover img{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+.portfolio-item-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(14, 14, 17, 0.9);
+    cursor: zoom-in;
+    -webkit-cursor: zoom-in;
+    /* opacity: 0; */
+    opacity: 0;
+    transition: all 0.8s ease;
+    -webkit-transition: all 0.8s ease;
+}
+
+.portfolio-item-overlay .portfolio-item-details{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.portfolio-item-details h3{
+    color: #f4c613;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    transform: translateY(-20%);
+    -webkit-transform: translateY(-20%);
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+}
+
+.portfolio-item-details span{
+    display: inline-block;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 6px;
+    width: 30px;
+    margin: 11px auto 5px auto;
+}
+
+.portfolio-item-details p{
+    font-size: 17px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    transform: translateY(20%);
+    -webkit-transform: translateY(20%);
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+}
+
+.portfolio-item:hover .portfolio-item-details h3{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-details p{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-overlay{
+    opacity: 1;
+}

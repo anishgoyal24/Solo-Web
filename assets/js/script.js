@@ -31,3 +31,23 @@ $(function(){
         animation: 'slide'
     });
 });
+
+$(window).on('load', function(){
+    var grid = $("#isotope-container").isotope({});
+    $("#isotope-filters").on('click', 'button', function(){
+        var filterValue = $(this).attr('data-filter');
+        grid.isotope({filter:filterValue});
+        $("#isotope-filters").find(".active").removeClass("active");
+        $(this).addClass('active');
+    });
+});
+
+$(function (){
+    $("#portfolio-wrapper").magnificPopup({
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        }
+    });
+});
