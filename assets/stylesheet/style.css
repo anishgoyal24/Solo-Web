@@ -735,3 +735,124 @@ ul.social-list li:nth-child(3) a:hover{
 .testimonial .row{
     margin-bottom: 25px;
 }
+
+.pricing-table{
+    box-shadow: 0 0 10px 0 rgba(0,0,0, 0.1);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0,0,0, 0.1);
+    border-radius: 6px;
+    padding: 32px 21px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+}
+
+.pricing-table:hover{
+    background: #f4c613;
+    color: #fff;
+}
+
+.pricing-table .type h4{
+    color: #f4c613;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.pricing-table .price{
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 24px 0;
+}
+
+.pricing-table .price h2{
+    font-family: "Open Sans";
+    font-size: 42px;
+    font-weight: 100;
+    margin: 0 0 0 24px;
+    position: relative;
+}
+
+.pricing-table .price h2 span{
+    font-family: "Raleway";
+}
+
+.pricing-table .price h2 span.dollar{
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    left: -20px;
+    top: 5px;
+}
+
+.pricing-table .price h2 span.month{
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    left: 5x;
+    bottom: -12px;
+}
+
+.pricing-table .price p{
+    line-height: normal;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+}
+
+.pricing-table ul.package{
+    padding: 20px 0;
+}
+
+.pricing-table ul.package li{
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.pricing-table ul.package li i{
+    width: 24px;
+}
+
+.pricing-table .btn-yellow, .pricing-table.black .btn-white{
+    width: 96%;
+}
+
+.pricing-table:hover h4{
+    color: #fff;
+}
+
+.pricing-table:hover .btn-yellow{
+    background: #fff;
+    color: #212226;
+    border: 1px solid white;
+}
+
+.pricing-table .btn-yellow:hover, .pricing-table .btn-yellow:focus{
+    background: #212226;
+    border: 1px solid #212226;
+    color: white;
+}
+
+.pricing-table.black{
+    background: #212226;
+    color: #fff;
+}
+
+.pricing-table.black .type h4{
+    color: white;
+}
+
+.pricing-table.black:hover{
+    background: #f4c613;
+}
+
+.btn-white{
+    color: #212226;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.btn-white:hover ,.btn-white:focus{
+    color: #fff;
+    background-color: #212226;
+    border-color: #212226;
+}
