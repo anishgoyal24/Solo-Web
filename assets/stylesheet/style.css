@@ -856,3 +856,58 @@ ul.social-list li:nth-child(3) a:hover{
     background-color: #212226;
     border-color: #212226;
 }
+
+#stats{
+    background: url("/assets/images/stats/stats-bg.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+
+#stats .content-box-md{
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#stats .vertical-heading h2{
+    color: white;
+}
+
+#stats .vertical-heading{
+    margin-bottom: 50px;
+}
+
+#stats .stats-item{
+    background: rgba(61, 68, 68, 0.6);
+    border-radius: 4px;
+    min-height: 170px;
+    padding: 35px 50px;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+}
+
+.stats-item i{
+    font-size: 42px;
+    color: #f4c613;
+    margin: 0 0 6px 0;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+}
+
+.stats-item h3{
+    font-size: 32px;
+    color: white;
+    margin: 5px 0 5px 0;
+}
+
+.stats-item p{
+    color: white;
+    margin: 0;
+}
+
+#stats .stats-item:hover{
+    background: #f4c613;
+}
+
+.stats-item:hover i{
+    color: #212226;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
